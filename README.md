@@ -57,3 +57,97 @@ fallback until edited.
 The Zod schema in `src/content/content.schema.ts` is shared by the client and the
 development-only Vite middleware. Saving uses a temporary UTF-8 file followed by
 a rename so a partially written request does not corrupt the main JSON file.
+
+
+<!-- Design Lang -->
+
+| Portfolio         | Possible Design Language                      |
+| ----------------- | --------------------------------------------- |
+| Software Engineer | technical / systems / terminal / architecture |
+| AI Engineer       | futuristic / research / data visualization    |
+| UI/UX Designer    | editorial / product-showcase / case-study     |
+| Graphic Designer  | experimental / typography-heavy               |
+| Photographer      | immersive / image-first / gallery             |
+| Video Editor      | cinematic / dark / timeline                   |
+| Motion Designer   | animation-heavy / kinetic                     |
+| 3D Artist         | immersive / large canvases                    |
+| Game Developer    | game UI / HUD / cinematic                     |
+| Architect         | grid / Swiss / editorial                      |
+| Copywriter        | typography / editorial                        |
+| Content Creator   | social/media driven                           |
+| Freelancer        | conversion-focused                            |
+
+
+<!-- Different Art Styles -->
+01 Editorial
+02 Swiss Minimal
+03 Brutalist
+04 Neo-Brutalist
+05 Technical
+06 Futuristic
+07 Luxury
+08 Retro
+09 Playful
+10 Cinematic
+11 Monochrome
+12 Experimental
+13 Corporate Premium
+14 Glass / Digital
+15 Organic
+
+
+<!-- Prompt Way -->
+
+
+18. The Creative Director prompt is the critical part
+
+I would give your first AI agent instructions approximately like this:
+
+You are the creative director for a premium portfolio-template marketplace.
+
+Analyze the provided content.json, but do not alter its schema.
+
+Your task is to create a distinctive visual identity for a portfolio targeting {profession}.
+
+First define the creative concept before writing code.
+
+Define:
+
+visual concept
+art direction
+typography system
+maximum two font families
+color palette
+spacing system
+grid
+section rhythm
+border/radius language
+image treatment
+iconography
+motion language
+Header composition
+Hero composition
+Experience composition
+Skills composition
+Projects composition
+Project Details composition
+Services composition
+Testimonials composition
+Contact composition
+Footer composition
+Mobile behavior
+Tablet behavior
+Laptop behavior
+Desktop behavior
+Large-screen behavior
+RTL behavior
+
+Avoid generic SaaS aesthetics.
+
+Do not make every section a grid of rounded cards.
+
+Do not use gradients unless they materially support the creative concept.
+
+Each section must feel related to the same design system while having its own composition.
+
+Use typography, spacing, layout, imagery and composition as the primary means of differentiation rather than decorative effects.

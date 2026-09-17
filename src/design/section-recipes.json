@@ -1,0 +1,24 @@
+{
+  "templateId": "engineer-07",
+
+  "designFingerprint": {
+    "archetype": "technical",
+
+    "header": "",
+    "hero": "",
+    "projects": "",
+    "skills": "",
+    "testimonials": "",
+    "experiences": "",
+    "services": "",
+    "contact": "",
+    "footer": "",
+
+    "headingFontClass": "geometric",
+    "palette": "dark-lime",
+    "radius": "minimal",
+
+    "navigation": "vertical",
+    "density": "compact"
+  }
+}

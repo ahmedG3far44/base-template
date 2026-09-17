@@ -1,0 +1,32 @@
+{
+  "concept": "Digital Systems Architect",
+  "profession": "Software Engineer",
+  "archetype": "technical-editorial",
+
+  "visualIdea": "A portfolio inspired by technical documentation, architecture diagrams and premium editorial layouts.",
+
+  "typography": {
+    "heading": "Space Grotesk",
+    "body": "Inter"
+  },
+
+  "layout": {
+    "density": "spacious",
+    "alignment": "asymmetric",
+    "grid": "editorial"
+  },
+
+  "sections": {
+    "header": "minimal-floating",
+    "hero": "asymmetric-grid",
+    "experiences": "numbered-history",
+    "skills": "technical-grid",
+    "projects": "case-study-list",
+    "services": "editorial-grid",
+    "testimonials": "large-quote",
+    "contact": "oversized-cta",
+    "footer": "minimal-columns"
+  }
+}
+
+
