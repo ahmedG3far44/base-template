@@ -1,0 +1,685 @@
+{
+  "version": 1,
+  "settings": {
+    "defaultLocale": "en",
+    "locales": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ar",
+        "name": "العربية"
+      },
+      {
+        "code": "fr",
+        "name": "Français"
+      }
+    ],
+    "theme": {
+      "preset": "minimal",
+      "colors": {
+        "background": "#FFFFFF",
+        "heading": "#111827",
+        "primaryText": "#374151",
+        "secondaryText": "#4B5563",
+        "border": "#D1D5DB",
+        "cardBackground": "#FFFFFF",
+        "cardText": "#111827",
+        "accent": "#111827",
+        "accentText": "#FFFFFF"
+      }
+    }
+  },
+  "layout": {
+    "header": {
+      "visible": true
+    },
+    "sections": [
+      {
+        "id": "hero",
+        "visible": true
+      },
+      {
+        "id": "experiences",
+        "visible": true
+      },
+      {
+        "id": "skills",
+        "visible": true
+      },
+      {
+        "id": "projects",
+        "visible": true
+      },
+      {
+        "id": "services",
+        "visible": true
+      },
+      {
+        "id": "testimonials",
+        "visible": true
+      },
+      {
+        "id": "contact",
+        "visible": true
+      }
+    ],
+    "skills": {
+      "showCategory": true
+    },
+    "footer": {
+      "visible": true
+    }
+  },
+  "media": {
+    "heroImage": "/images/hero-en.png",
+    "favicon": "/images/favicon.png",
+    "imageRadii": {
+      "/images/hero-en.png": 16,
+      "/images/project-one.png": 12,
+      "/images/njerka-ai-powered-health-and-nutrition-planner.png": 12,
+      "/images/njerka-ai-powered-health-and-nutrition-planner-gallery-1.png": 12,
+      "/images/njerka-ai-powered-health-and-nutrition-planner-gallery-2.png": 12,
+      "/images/devpilot-auto-deployment-platform.png": 0,
+      "/images/devpilot-auto-deployment-platform-gallery-1.png": 0,
+      "/images/devpilot-auto-deployment-platform-gallery-2.png": 0
+    }
+  },
+  "translations": {
+    "en": {
+      "seo": {
+        "pageTitle": "Ahmed G3far — Full-Stack Developer",
+        "description": "Full-stack developer building dependable digital products with React, TypeScript, and thoughtful product engineering.",
+        "keywords": [
+          "Full-stack developer",
+          "React developer",
+          "TypeScript",
+          "Node.js",
+          "Cairo"
+        ],
+        "author": "Ahmed G3far",
+        "socialTitle": "Ahmed G3far — Full-Stack Developer",
+        "socialDescription": "Dependable digital products built with React, TypeScript, and thoughtful product engineering."
+      },
+      "header": {
+        "name": "Ahmed G3far",
+        "logoText": "AM",
+        "navigation": [
+          {
+            "id": "nav-projects",
+            "label": "Projects",
+            "href": "#projects"
+          },
+          {
+            "id": "nav-contact",
+            "label": "Contact",
+            "href": "#contact"
+          }
+        ],
+        "cta": {
+          "label": "Let’s talk",
+          "href": "#contact"
+        },
+        "socialLinks": [
+          {
+            "id": "social-github",
+            "label": "GitHub",
+            "href": "https://github.com/"
+          }
+        ],
+        "showLanguageSwitcher": true
+      },
+      "hero": {
+        "eyebrow": "Available for work!!",
+        "title": "Full-stack developer building dependable digital products",
+        "subtitle": "React, TypeScript, and thoughtful product engineering",
+        "description": "I help teams turn complex ideas into clear, maintainable web experiences.",
+        "primaryCTA": {
+          "label": "View projects",
+          "href": "#projects"
+        },
+        "secondaryCTA": {
+          "label": "Get in touch",
+          "href": "#contact"
+        },
+        "availability": "Available from October",
+        "location": "Alexandria, Egypt"
+      },
+      "contact": {
+        "heading": "Let’s work together",
+        "description": "Tell me about the product you are building and where you need help.",
+        "email": "hello@example.com",
+        "phone": "+20 000 000 0000",
+        "location": "Cairo, Egypt",
+        "cta": {
+          "label": "Send an email",
+          "href": "mailto:hello@example.com"
+        },
+        "contactLinks": [],
+        "socialLinks": [
+          {
+            "id": "contact-linkedin",
+            "label": "LinkedIn",
+            "href": "https://linkedin.com/"
+          }
+        ]
+      },
+      "footer": {
+        "name": "Ahmed G3far",
+        "description": "Independent full-stack developer.",
+        "navigation": [
+          {
+            "id": "footer-projects",
+            "label": "Projects",
+            "href": "#projects"
+          }
+        ],
+        "socialLinks": [
+          {
+            "id": "footer-github",
+            "label": "GitHub",
+            "href": "https://github.com/"
+          }
+        ],
+        "additionalLinks": [],
+        "copyright": "© 2026 Alex Morgan. All rights reserved."
+      },
+      "sectionHeadings": {
+        "experiences": "Experience",
+        "skills": "Skills",
+        "projects": "Projects",
+        "services": "Services",
+        "testimonials": "Testimonials"
+      },
+      "labels": {
+        "present": "Present",
+        "skill": "Skill",
+        "liveSite": "Live site",
+        "repository": "Repository",
+        "caseStudy": "Case study",
+        "imagePlaceholder": "Image placeholder",
+        "viewDetails": "View details",
+        "close": "Close",
+        "projectDetails": "Project details",
+        "category": "Category",
+        "technologies": "Technologies",
+        "role": "Role",
+        "year": "Year",
+        "gallery": "Gallery"
+      }
+    },
+    "ar": {
+      "seo": {
+        "pageTitle": "أليكس مورغان — مطور Full-Stack",
+        "description": "مطور Full-Stack يبني منتجات رقمية موثوقة باستخدام React وTypeScript وهندسة منتجات مدروسة.",
+        "keywords": [
+          "مطور Full-Stack",
+          "مطور React",
+          "TypeScript",
+          "Node.js",
+          "القاهرة"
+        ],
+        "author": "أليكس مورغان",
+        "socialTitle": "أليكس مورغان — مطور Full-Stack",
+        "socialDescription": "منتجات رقمية موثوقة مبنية باستخدام React وTypeScript وهندسة منتجات مدروسة."
+      },
+      "header": {
+        "name": "أليكس مورغان",
+        "logoText": "AM",
+        "navigation": [
+          {
+            "id": "nav-projects-ar",
+            "label": "المشاريع",
+            "href": "#projects"
+          },
+          {
+            "id": "nav-contact-ar",
+            "label": "تواصل",
+            "href": "#contact"
+          }
+        ],
+        "cta": {
+          "label": "لنتحدث",
+          "href": "#contact"
+        },
+        "socialLinks": [
+          {
+            "id": "social-github-ar",
+            "label": "GitHub",
+            "href": "https://github.com/"
+          }
+        ],
+        "showLanguageSwitcher": true
+      },
+      "hero": {
+        "eyebrow": "متاح لمشاريع مختارة",
+        "title": "مطور Full-Stack يبني منتجات رقمية موثوقة",
+        "subtitle": "React وTypeScript وهندسة منتجات مدروسة",
+        "description": "أساعد الفرق على تحويل الأفكار المعقدة إلى تجارب ويب واضحة وقابلة للصيانة.",
+        "primaryCTA": {
+          "label": "عرض المشاريع",
+          "href": "#projects"
+        },
+        "secondaryCTA": {
+          "label": "تواصل معي",
+          "href": "#contact"
+        },
+        "availability": "متاح من أكتوبر",
+        "location": "القاهرة، مصر"
+      },
+      "contact": {
+        "heading": "لنعمل معاً",
+        "description": "أخبرني عن المنتج الذي تبنيه وكيف يمكنني المساعدة.",
+        "email": "hello@example.com",
+        "phone": "+20 000 000 0000",
+        "location": "القاهرة، مصر",
+        "cta": {
+          "label": "أرسل بريداً",
+          "href": "mailto:hello@example.com"
+        },
+        "contactLinks": [],
+        "socialLinks": [
+          {
+            "id": "contact-linkedin-ar",
+            "label": "LinkedIn",
+            "href": "https://linkedin.com/"
+          }
+        ]
+      },
+      "footer": {
+        "name": "أليكس مورغان",
+        "description": "مطور Full-Stack مستقل.",
+        "navigation": [
+          {
+            "id": "footer-projects-ar",
+            "label": "المشاريع",
+            "href": "#projects"
+          }
+        ],
+        "socialLinks": [
+          {
+            "id": "footer-github-ar",
+            "label": "GitHub",
+            "href": "https://github.com/"
+          }
+        ],
+        "additionalLinks": [],
+        "copyright": "© 2026 أليكس مورغان. جميع الحقوق محفوظة."
+      },
+      "sectionHeadings": {
+        "experiences": "الخبرة",
+        "skills": "المهارات",
+        "projects": "المشاريع",
+        "services": "الخدمات",
+        "testimonials": "آراء العملاء"
+      },
+      "labels": {
+        "present": "حتى الآن",
+        "skill": "مهارة",
+        "liveSite": "الموقع",
+        "repository": "المستودع",
+        "caseStudy": "دراسة الحالة",
+        "imagePlaceholder": "صورة مؤقتة",
+        "viewDetails": "عرض التفاصيل",
+        "close": "إغلاق",
+        "projectDetails": "تفاصيل المشروع",
+        "category": "التصنيف",
+        "technologies": "التقنيات",
+        "role": "الدور",
+        "year": "السنة",
+        "gallery": "معرض الصور"
+      }
+    },
+    "fr": {
+      "seo": {
+        "pageTitle": "Alex Morgan — Développeur Full-Stack",
+        "description": "Développeur Full-Stack créant des produits numériques fiables avec React, TypeScript et une ingénierie produit réfléchie.",
+        "keywords": [
+          "Développeur Full-Stack",
+          "Développeur React",
+          "TypeScript",
+          "Node.js",
+          "Le Caire"
+        ],
+        "author": "Alex Morgan",
+        "socialTitle": "Alex Morgan — Développeur Full-Stack",
+        "socialDescription": "Des produits numériques fiables créés avec React, TypeScript et une ingénierie produit réfléchie."
+      },
+      "header": {
+        "name": "Alex Morgan",
+        "logoText": "AM",
+        "navigation": [
+          {
+            "id": "nav-projects",
+            "label": "Projects",
+            "href": "#projects"
+          },
+          {
+            "id": "nav-contact",
+            "label": "Contact",
+            "href": "#contact"
+          }
+        ],
+        "cta": {
+          "label": "Let’s talk",
+          "href": "#contact"
+        },
+        "socialLinks": [
+          {
+            "id": "social-github",
+            "label": "GitHub",
+            "href": "https://github.com/"
+          }
+        ],
+        "showLanguageSwitcher": true
+      },
+      "hero": {
+        "eyebrow": "Available for selected projects",
+        "title": "Full-stack developer building dependable digital products",
+        "subtitle": "React, TypeScript, and thoughtful product engineering",
+        "description": "I help teams turn complex ideas into clear, maintainable web experiences.",
+        "primaryCTA": {
+          "label": "View projects",
+          "href": "#projects"
+        },
+        "secondaryCTA": {
+          "label": "Get in touch",
+          "href": "#contact"
+        },
+        "availability": "Available from October",
+        "location": "Cairo, Egypt"
+      },
+      "contact": {
+        "heading": "Let’s work together",
+        "description": "Tell me about the product you are building and where you need help.",
+        "email": "hello@example.com",
+        "phone": "+20 000 000 0000",
+        "location": "Cairo, Egypt",
+        "cta": {
+          "label": "Send an email",
+          "href": "mailto:hello@example.com"
+        },
+        "contactLinks": [],
+        "socialLinks": [
+          {
+            "id": "contact-linkedin",
+            "label": "LinkedIn",
+            "href": "https://linkedin.com/"
+          }
+        ]
+      },
+      "footer": {
+        "name": "Alex Morgan",
+        "description": "Independent full-stack developer.",
+        "navigation": [
+          {
+            "id": "footer-projects",
+            "label": "Projects",
+            "href": "#projects"
+          }
+        ],
+        "socialLinks": [
+          {
+            "id": "footer-github",
+            "label": "GitHub",
+            "href": "https://github.com/"
+          }
+        ],
+        "additionalLinks": [],
+        "copyright": "© 2026 Alex Morgan. All rights reserved."
+      },
+      "sectionHeadings": {
+        "experiences": "Experience",
+        "skills": "Skills",
+        "projects": "Projects",
+        "services": "Services",
+        "testimonials": "Testimonials"
+      },
+      "labels": {
+        "present": "Present",
+        "skill": "Skill",
+        "liveSite": "Live site",
+        "repository": "Repository",
+        "caseStudy": "Case study",
+        "imagePlaceholder": "Image placeholder",
+        "viewDetails": "Voir les détails",
+        "close": "Fermer",
+        "projectDetails": "Détails du projet",
+        "category": "Catégorie",
+        "technologies": "Technologies",
+        "role": "Rôle",
+        "year": "Année",
+        "gallery": "Galerie"
+      }
+    }
+  },
+  "collections": {
+    "experiences": [
+      {
+        "id": "experience-studio",
+        "startDate": "2023",
+        "endDate": "",
+        "current": true,
+        "translations": {
+          "en": {
+            "company": "Product Studio",
+            "role": "Senior Full-Stack Developer",
+            "employmentType": "Full-time",
+            "location": "Remote",
+            "description": "Building reliable product foundations for growing teams.",
+            "achievements": [
+              "Led a shared design system",
+              "Reduced release lead time"
+            ],
+            "technologies": [
+              "React",
+              "TypeScript",
+              "Node.js"
+            ]
+          },
+          "ar": {
+            "company": "استوديو المنتجات",
+            "role": "مطور Full-Stack أول",
+            "employmentType": "دوام كامل",
+            "location": "عن بُعد",
+            "description": "بناء أسس منتجات موثوقة للفرق النامية.",
+            "achievements": [
+              "قدت تطوير نظام تصميم مشترك"
+            ],
+            "technologies": [
+              "React",
+              "TypeScript",
+              "Node.js"
+            ]
+          }
+        }
+      }
+    ],
+    "skills": [
+      {
+        "id": "skill-react",
+        "icon": "",
+        "translations": {
+          "en": {
+            "name": "React",
+            "category": "Frontend"
+          },
+          "ar": {
+            "name": "React",
+            "category": "الواجهة الأمامية"
+          }
+        }
+      },
+      {
+        "id": "skill-typescript",
+        "icon": "",
+        "translations": {
+          "en": {
+            "name": "TypeScript",
+            "category": "Engineering"
+          },
+          "ar": {
+            "name": "TypeScript",
+            "category": "الهندسة"
+          }
+        }
+      }
+    ],
+    "projects": [
+      {
+        "id": "project-one",
+        "image": "/images/project-one.png",
+        "gallery": [],
+        "liveUrl": "https://example.com",
+        "repositoryUrl": "",
+        "caseStudyUrl": "",
+        "featured": true,
+        "translations": {
+          "en": {
+            "title": "Operations Platform",
+            "slug": "operations-platform",
+            "shortDescription": "A clearer way for teams to manage daily operations.",
+            "description": "A modular operations product for distributed teams.",
+            "category": "SaaS",
+            "role": "Design and development",
+            "year": "2026",
+            "technologies": [
+              "React",
+              "TypeScript"
+            ]
+          },
+          "ar": {
+            "title": "منصة العمليات",
+            "slug": "operations-platform",
+            "shortDescription": "طريقة أوضح لإدارة العمليات اليومية.",
+            "description": "منتج عمليات مرن للفرق الموزعة.",
+            "category": "SaaS",
+            "role": "التصميم والتطوير",
+            "year": "2026",
+            "technologies": [
+              "React",
+              "TypeScript"
+            ]
+          }
+        }
+      },
+      {
+        "id": "project-8f9e1fa0-5897-47aa-81f7-e63aee41b0c5",
+        "image": "/images/njerka-ai-powered-health-and-nutrition-planner.png",
+        "gallery": [
+          "/images/njerka-ai-powered-health-and-nutrition-planner-gallery-1.png",
+          "/images/njerka-ai-powered-health-and-nutrition-planner-gallery-2.png"
+        ],
+        "liveUrl": "https://njerka.xyz",
+        "repositoryUrl": "https://github.com",
+        "caseStudyUrl": "",
+        "featured": true,
+        "translations": {
+          "en": {
+            "title": "Njerka AI Powered Health & Nutrition Planner",
+            "slug": "njerka-ai-powered-health-and-nutrition-planner",
+            "shortDescription": "it's a online platform that helps people with AI to create a customized diet or nutrition plan",
+            "description": "it's a online platform that helps people with AI to create a customized diet or nutrition plan\n- it's a online platform that helps people with AI to create a customized diet or nutrition plan\n- it's a online platform that helps people with AI to create a customized diet or nutrition plan\n-it's a online platform that helps people with AI to create a customized diet or nutrition plan",
+            "category": "Full-stack",
+            "role": "Full-stack Developer",
+            "year": "2026",
+            "technologies": []
+          }
+        }
+      },
+      {
+        "id": "project-4a792a3b-c178-473c-b34a-10f0501e19b5",
+        "image": "/images/devpilot-auto-deployment-platform.png",
+        "gallery": [
+          "/images/devpilot-auto-deployment-platform-gallery-1.png",
+          "/images/devpilot-auto-deployment-platform-gallery-2.png"
+        ],
+        "liveUrl": "https://devpilot.njerka.xyz",
+        "repositoryUrl": "https://devpilot.njerka.xyz",
+        "caseStudyUrl": "https://devpilot.njerka.xyz",
+        "featured": true,
+        "translations": {
+          "en": {
+            "title": "DevPilot Auto Deployment Platform",
+            "slug": "devpilot-auto-deployment-platform",
+            "category": "PAAS",
+            "role": "Full Stack Developer ",
+            "year": "2025",
+            "technologies": [
+              "React-Tech"
+            ]
+          }
+        }
+      },
+      {
+        "id": "project-2d688616-4878-4c11-9cd0-38f00428a3cf",
+        "image": "",
+        "gallery": [],
+        "liveUrl": "",
+        "repositoryUrl": "",
+        "caseStudyUrl": "",
+        "featured": false,
+        "translations": {
+          "en": {
+            "title": "New project",
+            "technologies": []
+          }
+        }
+      }
+    ],
+    "services": [
+      {
+        "id": "service-product",
+        "translations": {
+          "en": {
+            "title": "Product development",
+            "description": "From focused prototypes to production-ready applications.",
+            "features": [
+              "Architecture",
+              "Frontend",
+              "Backend"
+            ],
+            "cta": {
+              "label": "Discuss a project",
+              "href": "#contact"
+            }
+          },
+          "ar": {
+            "title": "تطوير المنتجات",
+            "description": "من النماذج المركزة إلى تطبيقات جاهزة للإنتاج.",
+            "features": [
+              "البنية",
+              "الواجهة الأمامية",
+              "الخلفية"
+            ],
+            "cta": {
+              "label": "ناقش مشروعاً",
+              "href": "#contact"
+            }
+          }
+        }
+      }
+    ],
+    "testimonials": [
+      {
+        "id": "testimonial-one",
+        "avatar": "",
+        "translations": {
+          "en": {
+            "quote": "Alex brought clarity to a complicated build and delivered a system our team can maintain.",
+            "name": "Jordan Lee",
+            "role": "Product Lead",
+            "company": "Northstar"
+          },
+          "ar": {
+            "quote": "أضاف أليكس وضوحاً لمشروع معقد وسلم نظاماً يستطيع فريقنا صيانته.",
+            "name": "جوردان لي",
+            "role": "قائد المنتج",
+            "company": "نورث ستار"
+          }
+        }
+      }
+    ]
+  }
+}

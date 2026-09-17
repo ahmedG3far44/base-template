@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #111827;
+  background: #ffffff;
+  --theme-background: #ffffff;
+  --theme-heading: #111827;
+  --theme-primary-text: #374151;
+  --theme-secondary-text: #4b5563;
+  --theme-border: #d1d5db;
+  --theme-card-background: #ffffff;
+  --theme-card-text: #111827;
+  --theme-accent: #111827;
+  --theme-accent-text: #ffffff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; min-height: 100vh; }
+button, input, textarea, select { font: inherit; }
+button { cursor: pointer; }
+:focus-visible { outline: 2px solid #111827; outline-offset: 2px; }
+
+.portfolio-theme {
+  background-color: var(--theme-background);
+  color: var(--theme-primary-text);
+}
+
+.portfolio-theme :is(.text-gray-950, .text-gray-900, .text-gray-800) { color: var(--theme-heading); }
+.portfolio-theme .text-gray-700 { color: var(--theme-primary-text); }
+.portfolio-theme :is(.text-gray-600, .text-gray-500) { color: var(--theme-secondary-text); }
+.portfolio-theme :is(.border-gray-900, .border-gray-300, .border-gray-200) { border-color: var(--theme-border); }
+.portfolio-theme :is(.divide-gray-200) > :not(:last-child) { border-color: var(--theme-border); }
+.portfolio-theme :is(.bg-gray-50, .bg-gray-100, .bg-gray-200) {
+  background-color: color-mix(in srgb, var(--theme-card-background) 82%, var(--theme-border));
+}
+.portfolio-theme .bg-white { background-color: var(--theme-card-background); }
+
+.portfolio-theme .portfolio-card {
+  background-color: var(--theme-card-background);
+  border-color: var(--theme-border);
+}
+
+.portfolio-theme .portfolio-card :is(.text-gray-950, .text-gray-900, .text-gray-800, .text-gray-700) {
+  color: var(--theme-card-text);
+}
+
+.portfolio-theme .portfolio-action {
+  border-color: var(--theme-accent);
+  background-color: var(--theme-accent);
+  color: var(--theme-accent-text);
+  transition: filter 150ms ease;
+}
+
+.portfolio-theme .portfolio-action:hover { filter: brightness(0.92); }
+.portfolio-theme :focus-visible { outline-color: var(--theme-accent); }

@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "decisions": [
+    "Keep the portfolio presentation intentionally minimal: white canvas, near-black copy, gray supporting text, light dividers.",
+    "Prioritize editor clarity, keyboard access, and content architecture over decorative styling.",
+    "Project details use a Dribbble-inspired bottom sheet: 90vw by 90vh, upward slide, strong top shadow, internal scrolling, and no route change.",
+    "Portfolio appearance is driven by semantic theme tokens with preset starting points, per-color customization, live preview, and WCAG AA contrast feedback.",
+    "Editor navigation and actions use restrained Lucide icons; uploaded images use a top-right X removal control and destructive list actions use compact Remove buttons.",
+    "Image path fields use a visibly muted read-only state whenever an image is already set; removing the image unlocks the field for a new path.",
+    "Every uploaded image exposes an independent 0-200px corner-radius control, with square as an explicit option and the chosen radius shared anywhere that image is rendered.",
+    "Page title and SEO metadata are localized content, while the browser favicon is a shared uploaded asset; active locale changes update document, Open Graph, and Twitter metadata live."
+  ]
+}
